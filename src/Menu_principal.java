@@ -37,6 +37,8 @@ public class Menu_principal {
                     System.out.println("____________________________________");
                     break;
                 case 2:
+                    ConversorAOtraMoneda conversorAOtraMoneda = new ConversorAOtraMoneda();
+                    conversorAOtraMoneda.ConversorA();
                     System.out.println("____________________________________");
                     break;
                 case 3:

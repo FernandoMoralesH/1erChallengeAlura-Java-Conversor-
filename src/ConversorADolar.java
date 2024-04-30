@@ -17,7 +17,7 @@ public class ConversorADolar {
         this.conversion_rate = conversion_rate;
     }
 
-    float conversion_rate;
+    private float conversion_rate;
 
 
 
