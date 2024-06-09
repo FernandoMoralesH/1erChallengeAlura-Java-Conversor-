@@ -15,14 +15,14 @@ public class Menu_principal {
                     -- Elige la Opcion correspondiente:
                     *************************************
                     
-                    1.- Convertir tu moneda a Dolar:
+                    1.- Convertir a Dolares:
                     2.- Convertir Dolares a otra moneda:
                     3.- Salir.
                     """);
     }
 
     public void MenuP() throws IOException, InterruptedException {
-        Scanner teclado = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.addin);
         int opcion;
 
         do {
@@ -50,7 +50,5 @@ public class Menu_principal {
             }
         }while (opcion !=3);
         teclado.close();
-
-
     }
 }
