@@ -26,7 +26,14 @@ public class ConversorADolar {
         System.out.println("Escribe la cantidad que deseas convertir a dolar: ");
         int cantidadUsuario = Integer.parseInt((lectura.nextLine()));
 
-        System.out.println("Coloca el nombre del pais de la moneda que deseas convertir en formato \"AAA\":");
+        System.out.println("Coloca la abreviatura de la moneda que deseas convertir en formato \"AAA\":");
+        System.out.println("""
+                Por ejemplo:
+                MXN = Peso Mexicano,   PEN = Sol Peruano
+                ARS = Peso Argentino,  RUB = Ruble Russia
+                EUR = Euro             USD = Dolar USA
+                GTQ = Quetzal GTM      CAD = Dolar Canadiense
+                """);
         var pais = lectura.nextLine();
 
         String direccion = "https://v6.exchangerate-api.com/v6/9fa741b11cbba6f064fb0cde/pair/"+pais+"/USD";

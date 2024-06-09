@@ -22,7 +22,7 @@ public class Menu_principal {
     }
 
     public void MenuP() throws IOException, InterruptedException {
-        Scanner teclado = new Scanner(System.addin);
+        Scanner teclado = new Scanner(System.in);
         int opcion;
 
         do {
